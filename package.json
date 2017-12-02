@@ -1,0 +1,21 @@
+{
+  "name": "lib-test",
+  "version": "0.1.0",
+  "main": "index.js",
+  "bin": "main.js",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "math",
+    "greetings"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.53",
+    "commander": "^2.12.2",
+    "typescript": "^2.6.2"
+  }
+}
